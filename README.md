@@ -1,3 +1,7 @@
+# DEPRECATED
+use: https://github.com/PrimeAcademy/get-jazzy-ajax
+
+
 # Get Jazzy AJAX Get
 
 - Fork
