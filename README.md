@@ -12,4 +12,4 @@
 
 ## Stretch
 
-The `/artist` and `/song` requests are working! Add a third table for albums that has `title` and `year` for the release date.
+The `/artist` and `/song` requests are working! Add a third array for albums that has `title` and `year` for the release date.
