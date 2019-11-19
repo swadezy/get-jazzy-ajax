@@ -1,12 +1,7 @@
 const express = require('express');
+
 const app = express();
-
-app.use(express.static('server/public'));
-
 const PORT = 5000;
-app.listen(PORT, () => {
-    console.log('listening on port', PORT)
-});
 
 const artistListArray = [
     {
@@ -50,9 +45,14 @@ const songListArray = [
     },
 ];
 
-// GET artists 
+app.use(express.static('server/public'));
+
 app.get('/artist', (req, res) => {
     res.send(artistListArray);
 });
 
 // TODO - Add GET for songs
+
+app.listen(PORT, () => {
+    console.log('listening on port', PORT)
+});
