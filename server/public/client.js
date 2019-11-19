@@ -17,5 +17,5 @@ function onReady() {
         }
     });
 
-    // Add ajax request for /songs and display on DOM
+    // TODO Add ajax request for /songs and display on DOM
 }
